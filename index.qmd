@@ -1,47 +1,30 @@
 ---
-title: "How to use Quarto to create Open & Reproducible Presentations"
-subtitle: |
-  Digital Research Academy Train the Trainer program
-
-  [{{< fa brands github >}} Source](https://github.com/jansim/dra-reproducible-materials) |
-  [{{< fa brands chrome >}} Slides](http://simson.io/dra-reproducible-materials/)
-
-  [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-  [![DOI](https://zenodo.org/badge/754060284.svg)](https://zenodo.org/doi/10.5281/zenodo.10652968)
+title: "My presentation title"
+#subtitle:
 authors:
-  - id: bearman
+  - id: cgg
     name:
-      given: Nick
-      family: Bearman
-      literal: Nick Bearman
-    url: https://nickbearman.me.uk
-    email: nick@nickbearman.com
-    orcid: 0000-0002-8396-4061
+      given: Carlos
+      family: González-García
+      literal: Carlos González-García
+    url: https://ugr.es/~cgonzalez/
+    email: cgonzalez@ugr.es
+    orcid: 0000-0001-6627-5777
     attributes:
       corresponding: boolean
       equal-contributor: true
-  - id: fischer abaigar    
-    name:
-      given: Unai
-      family: Fischer Abaigar
-      literal: Unai Fischer Abaigar
-    email: Unai.FischerAbaigar@stat.uni-muenchen.de
-    orcid: 0000-0003-4893-2547
-    attributes:
-      corresponding: boolean
-      equal-contributor: true
-  - id: simson
-    name:
-      given: Jan
-      family: Simson
-      literal: Jan Simson
-    url: https://simson.io
-    email: hi@simson.io
-    orcid: 0000-0002-9406-7761
-    attributes:
-      corresponding: boolean
-      equal-contributor: true
-date: "2024-02-13"
+  # - id: javi
+  #   name:
+  #     given: Javier
+  #     family: Ortiz-Tudela
+  #     literal: Javier Ortiz-Tudela
+  #   email: Unai.FischerAbaigar@stat.uni-muenchen.de
+  #   orcid: 0000-0003-4893-2547
+  #   attributes:
+  #     corresponding: boolean
+  #     equal-contributor: false
+
+date: "2024-05-22"
 date-format: long
 from: markdown+emoji
 format:
@@ -70,6 +53,7 @@ format:
 - Compare PowerPoint and Quarto (Jan)
 - Demo creating and updating slides in realtime using GitHub Actions (Jan)
 - Questions (you)
+
 
 :::
 
